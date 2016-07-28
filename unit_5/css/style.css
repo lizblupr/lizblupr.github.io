@@ -1,0 +1,41 @@
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+
+
+body {
+	background-color: cornflowerblue
+}
+h1, p {
+	color:azure;
+}
+#slogan {
+	font-size: 22px;
+
+}
+h1, p, title {
+	text-align: center;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+h1, p {
+	font-family: Helvetica, sans-serif;
+}
+title
+{font-size: 24px;
+}
+img {margin-left: auto; margin-right: auto;display: block;}
+p { margin:20px 20%; }
