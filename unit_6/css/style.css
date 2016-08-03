@@ -3,16 +3,49 @@ header {
     border: 1px black solid;
     padding: 20px;
 }
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
 nav {
     background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
+    font-family: Helvetica; sans-serif; 
 }
 
 footer {
     background-color: #FF957E;
     border: 1px black solid;
     padding: 20px;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
 }
 
 body {
