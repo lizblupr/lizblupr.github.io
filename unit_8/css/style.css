@@ -1,0 +1,87 @@
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+nav {
+    background-color: #fffff;
+    padding: 20px;
+    font-family: Helvetica; sans-serif; 
+}
+
+footer {
+    background-color: #ff7eba;
+    border: 1px black solid;
+    padding: 20px;  
+}
+
+
+
+body {
+	background-color: cornflowerblue
+}
+h1, p {
+	color:azure;
+}
+#slogan {
+	font-size: 22px;
+
+}
+h1, p, title {
+	text-align: center;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+h1, p {
+	font-family: Helvetica, sans-serif;
+}
+title
+{font-size: 24px;
+}
+img {margin-left: auto; margin-right: auto;display: block;}
+p { margin:20px 20%; 
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+}
+
+a{
+    text-decoration: none
+}
+
+#one {
+    background: url('../images/lizbikehero.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.5;
+}
+.slogan {
+    top: -19em;
+    position: relative;
+}
+.slogan h1 {
+    margin: 0;
+}
+
+.description {
+    top: -4em;
+    height: 56px;
+    position: relative;
+}
